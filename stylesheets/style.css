@@ -364,7 +364,7 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-@media only screen and (min-width: 415px) {
+@media only screen and (min-width: 416px) {
   body, .container {
     margin: 0;
     padding: 0;
@@ -492,7 +492,7 @@ textarea {
       color: cornflowerblue; }
     .skills span#jquery {
       top: 25%;
-      right: 34%;
+      right: 19%;
       color: white; }
     .skills span#ux {
       top: 38%;
@@ -522,8 +522,8 @@ textarea {
       left: 25%;
       color: white; }
     .skills span#git {
-      top: 22%;
-      left: 39%;
+      top: 23%;
+      left: 19%;
       color: cornflowerblue; }
 
   .skills:after {
@@ -720,7 +720,7 @@ textarea {
   .credit_content a:hover {
     color: #5479c3;
     text-decoration: underline; } }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 415px) {
   body, .container {
     margin: 0;
     padding: 0;
@@ -858,7 +858,7 @@ textarea {
       color: cornflowerblue; }
     .skills span#jquery {
       top: 25%;
-      right: 34%;
+      right: 20%;
       color: white; }
     .skills span#ux {
       top: 38%;
@@ -892,7 +892,7 @@ textarea {
       color: white; }
     .skills span#git {
       top: 22%;
-      left: 39%;
+      left: 20%;
       font-size: 12px;
       color: cornflowerblue; }
 
