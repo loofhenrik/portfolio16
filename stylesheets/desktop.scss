@@ -1,0 +1,493 @@
+@media only screen  and (min-width : 415px) {
+
+  body, .container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    color: white;
+    background: #222;
+    background: radial-gradient(#333333, #111111);
+
+    font-family: "Gill Sans";
+    //font-family: 'Palanquin', sans-serif, Arial, Helvetica;
+
+
+
+    .toggle_text {
+      display: none;
+    }
+  }
+
+
+  //------------------------------------- LEFT LAYOUT ---------------------------------
+  aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: 100%;
+
+    //background: #222;
+  }
+
+  header {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 25%;
+    //background: #222;
+
+    h1, h2 {
+      position: absolute;
+      bottom: 20%;
+      right: 0;
+    }
+
+    h1 {
+      font-size: 34px;
+      letter-spacing: 2px;
+    }
+    h2 {
+      margin: 10px 0;
+      font-size: 18px;
+      letter-spacing: 1px;
+      color: $blue;
+    }
+  }
+
+  img.profile_image {
+    padding: 0;
+    margin: 0;
+    width: 36%;
+
+    position: absolute;
+    z-index: 50;
+    bottom: -79px;
+    left: 16px;
+
+    border: 7px solid $red;
+    border-radius: 50%;
+
+    //transform: rotate(45deg);
+
+  }
+
+  //---------------------------------- CONTACT ICONS -----------------------------
+
+  .contact {
+    position: relative;
+    z-index: 50;
+
+  }
+
+  .contact ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .contact ul li a i:before {
+    font-size: 30px;
+    margin: 0;
+    padding: 12px;
+    border-radius: 50%;
+    color: white;
+    background: black;
+
+    text-decoration: none;
+    transition: all 0.5s ease;
+  }
+
+  .contact ul li a:hover i:before {
+    background: white;
+    color: black;
+  }
+
+  .contact ul li a:active i:before {
+    background: black;
+    color: white;
+  }
+
+  .contact_icons {
+    position: absolute;
+  }
+
+  .flaticon-note {
+    top: 30px;
+    right: 40%;
+  }
+
+  .flaticon-technology {
+
+    top: 30px;
+    right: 22.5%;
+  }
+
+  .flaticon-linkedin-letters {
+    top: 30px;
+    right: 5%;
+  }
+
+  //--------------------------------------- ABOUT ----------------------------------
+
+  .about {
+    position: relative;
+    margin: 0;
+    padding: 35% 5% 3% 5%;
+    width: 90%;
+    height: 20%;
+
+    background: $red;
+    //background: radial-gradient(#FF6347, #eb523c);
+    box-shadow: 1px 1px 5px black;
+
+    p {
+      font-size: 16px;
+      text-shadow: 0 1px 1px $red_dark;
+    }
+  }
+
+  //--------------------------------------- SKILL CLOUD ------------------------------
+
+  .skills > span {
+    position: absolute;
+    text-transform: uppercase;
+  }
+
+  .skills {
+    position: relative;
+    height: 33%;
+
+    //background: #222;
+
+    span#html5 {
+      top: 38%;
+      left: 42%;
+      font-size: 28px;
+      color: white;
+    }
+
+    span#css3 {
+      top: 53%;
+      left: 24%;
+      font-size: 28px;
+      color: $red;
+    }
+
+    span#js {
+      top: 55%;
+      right: 20%;
+      font-size: 28px;
+      color: $blue;
+    }
+
+    span#jquery {
+      top: 25%;
+      right: 34%;
+      color: white;
+    }
+
+    span#ux {
+      top: 38%;
+      right: 22%;
+      font-size: 20px;
+      color: $red;
+    }
+
+    span#responsive {
+      top: 36%;
+      left: 11%;
+      font-size: 20px;
+      color: $red;
+    }
+
+    span#sass {
+      top: 73%;
+      right: 32%;
+      font-size: 20px;
+      color: $red;
+    }
+
+    span#gulp {
+      top: 54%;
+      right: 7%;
+      color: white;
+    }
+
+    span#php {
+      top: 58%;
+      left: 11%;
+      color: $blue;
+
+    }
+
+    span#wp {
+      top: 76%;
+      left: 25%;
+      color: white;
+    }
+
+    span#git {
+      top: 22%;
+      left: 39%;
+      color: $blue;
+    }
+
+  }
+
+  //---------------------- ZIGZAG BORDER -------------------
+  .skills:after {
+    background: linear-gradient(-45deg, transparent 50px, $red 0), linear-gradient(45deg, transparent 50px, $red 0);
+    background-position: left-bottom;
+    background-repeat: repeat-x;
+    background-size: 50px 50px;
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+  }
+
+  //-------------------------------------------------- PORTFOLIO CONTENT --------------------------------
+
+  .portfolio_content {
+    margin: 0 0 0 0;
+    padding: 1%;
+    width: calc(98% - 400px);
+    min-height: 100vh;
+
+    //background-color: #222;
+
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    .section {
+      position: relative;
+      z-index: 10;
+      margin: 1% 1% 0 1%;
+      padding: 0;
+      width: 48%;
+
+    }
+
+    img {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+
+    }
+
+    img:hover + .img_color {
+      display: flex;
+      border: 1px solid white;
+
+    }
+
+    .img_color {
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      margin: 0;
+      padding: 0 10%;
+      width: 80%;
+      height: 98%;
+
+      //background: rgba(255, 99, 71, 0.90);
+      //background: rgba(100, 149, 237, 0.9);
+      background: rgba(34, 34, 34, 0.9);
+
+      display: none;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      h3 {
+        color: white;
+        text-shadow: 0 1px 1px $red_dark;
+      }
+      p {
+        color: white;
+        text-shadow: 0 1px 1px $red_dark;
+      }
+    }
+
+    .img_color:hover {
+      display: flex;
+      border: 1px solid white;
+    }
+  }
+
+  a.mobile_link {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 15px;
+
+    text-align: center;
+    color: white;
+    background: tomato;
+    text-shadow: 0 1px 1px $red_dark;
+    //border: 1px solid white;
+    text-decoration: none;
+    box-shadow: 0 1px 1px #111;
+    transition: all 0.4s ease;
+  }
+
+  a.mobile_link:hover {
+    background: white;
+    color: $red;
+    text-shadow: none;
+  }
+
+  //-------------------------------------- CREDIT-ICON -----------------------------------
+  /*
+  .pulse_arrow {
+    display: none;
+
+    position: fixed;
+    z-index: 100;
+    bottom: 20px;
+    right: calc(50% - 213px);
+
+    width: 25px;
+    height: 25px;
+
+    background: none;
+    border-right: 4px solid $red_dark;
+    border-bottom: 4px solid $red;
+    box-shadow: 2px 2px 2px #444;
+
+    transform: rotate(45deg);
+  }
+
+  .pulse_arrow {*/
+    //-webkit-animation: pulse_arrow 3s infinite; /* Safari 4+ */
+    //-moz-animation: pulse_arrow 3s infinite; /* Fx 5+ */
+    //-o-animation: pulse_arrow 3s infinite; /* Opera 12+ */
+    //animation: pulse_arrow 3s infinite; /* IE 10+, Fx 29+ */
+  /*}
+
+  @-webkit-keyframes pulse_arrow {
+    0% {
+      transform: rotate(45deg) scale(1);
+    }
+    50% {
+      transform: rotate(45deg) scale(1.2);
+    }
+    100% {
+      transform: rotate(45deg) scale(1);
+    }
+  }
+  @-moz-keyframes pulse_arrow {
+    0% {
+      transform: rotate(45deg) scale(1);
+    }
+    50% {
+      transform: rotate(45deg) scale(1.2);
+    }
+    100% {
+      transform: rotate(45deg) scale(1);
+    }
+  }
+  @-o-keyframes pulse_arrow {
+    0% {
+      transform: rotate(45deg) scale(1);
+    }
+    50% {
+      transform: rotate(45deg) scale(1.2);
+    }
+    100% {
+      transform: rotate(45deg) scale(1);
+    }
+  }
+  @keyframes pulse_arrow {
+    0% {
+      transform: rotate(45deg) scale(1);
+    }
+    50% {
+      transform: rotate(45deg) scale(1.2);
+    }
+    100% {
+      transform: rotate(45deg) scale(1);
+    }
+  }*/
+
+  //-------------------------------------- CREDIT-ICON -----------------------------------
+
+  .credit_icon {
+    position: fixed;
+    z-index: 100;
+    bottom: -50px;
+    right: -50px;
+
+    width: 100px;
+    height: 100px;
+    background: $blue;
+    box-shadow: -1px -1px 3px #333;
+
+    transform: rotate(45deg);
+    transition: all 0.6s ease;
+
+    cursor: pointer;
+
+    p {
+      font-size: 24px;
+      color: white;
+      text-shadow: 0 1px 1px $blue_dark;
+      cursor: pointer;
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+
+      transform: rotate(-45deg);
+      transition: all 0.3s ease;
+
+    }
+  }
+
+  .credit_icon:hover {
+    background: $blue_dark;
+    p {
+      color: white;
+      text-shadow: none;
+    }
+  }
+
+  .credit_content {
+    position: fixed;
+    z-index: 99;
+    bottom: 0px;
+    right: 0px;
+
+    margin: 0;
+    padding: 2% 3%;
+    width: 260px;
+    background: white;
+    border: 1px solid #666;
+
+    display: none;
+
+    p {
+      color: #666;
+      font-size: 14px;
+      margin: 5px 0;
+    }
+    a {
+      color: $blue;
+      font-size: 14px;
+      text-decoration: none;
+    }
+  }
+  .credit_content a:hover {
+    color: $blue_dark;
+    text-decoration: underline;
+  }
+}
