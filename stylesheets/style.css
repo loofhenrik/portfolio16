@@ -821,10 +821,11 @@ textarea {
 
   .about {
     position: relative;
-    top: 120px;
-    left: 0;
+    top: 0px;
+    left: 0px;
     margin: 0;
     padding: 5%;
+    padding-top: calc(5% + 120px);
     width: 90%;
     height: 20%;
     background: tomato;
@@ -839,7 +840,7 @@ textarea {
 
   .skills {
     position: relative;
-    top: 120px;
+    top: 0px;
     height: 200px; }
     .skills span#html5 {
       top: 38%;
@@ -911,7 +912,7 @@ textarea {
 
   .portfolio_content {
     position: relative;
-    top: 120px;
+    top: 0px;
     margin: 0 0 0 0;
     padding: 1%;
     width: 98%; }
@@ -1084,7 +1085,7 @@ textarea {
   .credit_content {
     position: relative;
     z-index: 99;
-    bottom: -120px;
+    bottom: 0px;
     right: 0px;
     margin: 0;
     padding: 5%;
