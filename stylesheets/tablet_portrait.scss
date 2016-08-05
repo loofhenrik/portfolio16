@@ -435,7 +435,7 @@
 
     width: 100px;
     height: 100px;
-    background: $blue;
+    background: $red;
     box-shadow: -1px -1px 3px #333;
 
     transform: rotate(45deg);
@@ -446,7 +446,7 @@
     p {
       font-size: 24px;
       color: white;
-      text-shadow: 0 1px 1px $blue_dark;
+      text-shadow: 0 1px 1px $red_dark;
       cursor: pointer;
       position: absolute;
       bottom: 15px;
@@ -459,7 +459,7 @@
   }
 
   .credit_icon:hover {
-    background: $blue_dark;
+    background: $red_2;
     p {
       color: white;
       text-shadow: none;

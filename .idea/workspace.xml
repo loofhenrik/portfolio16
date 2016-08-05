@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa184759-d4ff-4ae1-844c-d4fed56c392c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/desktop.scss" afterPath="$PROJECT_DIR$/stylesheets/desktop.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/mobile.scss" afterPath="$PROJECT_DIR$/stylesheets/mobile.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/style.css" afterPath="$PROJECT_DIR$/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/style.css.map" afterPath="$PROJECT_DIR$/stylesheets/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/tablet_landscape.scss" afterPath="$PROJECT_DIR$/stylesheets/tablet_landscape.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/tablet_portrait.scss" afterPath="$PROJECT_DIR$/stylesheets/tablet_portrait.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/variables.scss" afterPath="$PROJECT_DIR$/stylesheets/variables.scss" />
     </list>
     <ignored path="portfolio16.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,8 +41,8 @@
       <file leaf-file-name="desktop.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/desktop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.541667">
-              <caret line="475" column="89" selection-start-line="475" selection-start-column="0" selection-end-line="476" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.337662">
+              <caret line="458" column="22" selection-start-line="458" selection-start-column="22" selection-end-line="458" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -72,8 +71,8 @@
       <file leaf-file-name="tablet_landscape.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/tablet_landscape.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.666667">
-              <caret line="470" column="178" selection-start-line="470" selection-start-column="178" selection-end-line="470" selection-end-column="178" />
+            <state vertical-scroll-proportion="-16.916666">
+              <caret line="453" column="22" selection-start-line="453" selection-start-column="22" selection-end-line="453" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -82,8 +81,8 @@
       <file leaf-file-name="tablet_portrait.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/tablet_portrait.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5847751">
-              <caret line="478" column="178" selection-start-line="478" selection-start-column="178" selection-end-line="478" selection-end-column="178" />
+            <state vertical-scroll-proportion="0.61072665">
+              <caret line="461" column="22" selection-start-line="461" selection-start-column="22" selection-end-line="461" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -434,24 +433,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/desktop.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.541667">
-          <caret line="475" column="89" selection-start-line="475" selection-start-column="0" selection-end-line="476" selection-end-column="0" />
+        <state vertical-scroll-proportion="-6.337662">
+          <caret line="458" column="22" selection-start-line="458" selection-start-column="22" selection-end-line="458" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/tablet_landscape.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.666667">
-          <caret line="470" column="178" selection-start-line="470" selection-start-column="178" selection-end-line="470" selection-end-column="178" />
+        <state vertical-scroll-proportion="-16.916666">
+          <caret line="453" column="22" selection-start-line="453" selection-start-column="22" selection-end-line="453" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/tablet_portrait.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5847751">
-          <caret line="478" column="178" selection-start-line="478" selection-start-column="178" selection-end-line="478" selection-end-column="178" />
+        <state vertical-scroll-proportion="0.61072665">
+          <caret line="461" column="22" selection-start-line="461" selection-start-column="22" selection-end-line="461" selection-end-column="22" />
           <folding />
         </state>
       </provider>
