@@ -1,4 +1,4 @@
-@media only screen  and (min-width : 1025px) {
+@media only screen  and (min-width : 416px) and (max-width: 769px) {
 
   body, .container {
     margin: 0;
@@ -27,7 +27,7 @@
     left: 0;
     margin: 0;
     padding: 0;
-    width: 400px;
+    width: 300px;
     height: 100%;
 
     //background: #222;
@@ -37,22 +37,22 @@
     position: relative;
     margin: 0;
     padding: 0;
-    height: 25%;
+    height: 15%;
     //background: #222;
 
     h1, h2 {
       position: absolute;
-      bottom: 20%;
+      bottom: 10%;
       right: 0;
     }
 
     h1 {
-      font-size: 34px;
+      font-size: 28px;
       letter-spacing: 2px;
     }
     h2 {
       margin: 10px 0;
-      font-size: 18px;
+      font-size: 16px;
       letter-spacing: 1px;
       color: $blue;
     }
@@ -61,12 +61,12 @@
   img.profile_image {
     padding: 0;
     margin: 0;
-    width: 36%;
+    width: 30%;
 
     position: absolute;
     z-index: 50;
-    bottom: -79px;
-    left: 16px;
+    bottom: -58px;
+    left: 8px;
 
     border: 7px solid $red;
     border-radius: 50%;
@@ -91,7 +91,7 @@
   }
 
   .contact ul li a i:before {
-    font-size: 30px;
+    font-size: 22px;
     margin: 0;
     padding: 12px;
     border-radius: 50%;
@@ -117,19 +117,19 @@
   }
 
   .flaticon-note {
-    top: 30px;
-    right: 40%;
+    top: 20px;
+    right: 43%;
   }
 
   .flaticon-technology {
 
-    top: 30px;
-    right: 22.5%;
+    top: 20px;
+    right: 23%;
   }
 
   .flaticon-linkedin-letters {
-    top: 30px;
-    right: 5%;
+    top: 20px;
+    right: 3%;
   }
 
   //--------------------------------------- ABOUT ----------------------------------
@@ -259,7 +259,7 @@
   .portfolio_content {
     margin: 0 0 0 0;
     padding: 1%;
-    width: calc(98% - 400px);
+    width: calc(98% - 300px);
     min-height: 100vh;
 
     //background-color: #222;
@@ -274,7 +274,7 @@
       z-index: 10;
       margin: 1% 1% 0 1%;
       padding: 0;
-      width: 48%;
+      width: 100%;
 
     }
 
@@ -369,10 +369,10 @@
   }
 
   .pulse_arrow {*/
-    //-webkit-animation: pulse_arrow 3s infinite; /* Safari 4+ */
-    //-moz-animation: pulse_arrow 3s infinite; /* Fx 5+ */
-    //-o-animation: pulse_arrow 3s infinite; /* Opera 12+ */
-    //animation: pulse_arrow 3s infinite; /* IE 10+, Fx 29+ */
+  //-webkit-animation: pulse_arrow 3s infinite; /* Safari 4+ */
+  //-moz-animation: pulse_arrow 3s infinite; /* Fx 5+ */
+  //-o-animation: pulse_arrow 3s infinite; /* Opera 12+ */
+  //animation: pulse_arrow 3s infinite; /* IE 10+, Fx 29+ */
   /*}
 
   @-webkit-keyframes pulse_arrow {

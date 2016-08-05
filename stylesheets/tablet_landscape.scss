@@ -1,4 +1,4 @@
-@media only screen  and (min-width : 1025px) {
+@media only screen  and (min-width : 770px) and (max-width: 1024px) {
 
   body, .container {
     margin: 0;
@@ -274,7 +274,7 @@
       z-index: 10;
       margin: 1% 1% 0 1%;
       padding: 0;
-      width: 48%;
+      width: 100%;
 
     }
 
@@ -369,10 +369,10 @@
   }
 
   .pulse_arrow {*/
-    //-webkit-animation: pulse_arrow 3s infinite; /* Safari 4+ */
-    //-moz-animation: pulse_arrow 3s infinite; /* Fx 5+ */
-    //-o-animation: pulse_arrow 3s infinite; /* Opera 12+ */
-    //animation: pulse_arrow 3s infinite; /* IE 10+, Fx 29+ */
+  //-webkit-animation: pulse_arrow 3s infinite; /* Safari 4+ */
+  //-moz-animation: pulse_arrow 3s infinite; /* Fx 5+ */
+  //-o-animation: pulse_arrow 3s infinite; /* Opera 12+ */
+  //animation: pulse_arrow 3s infinite; /* IE 10+, Fx 29+ */
   /*}
 
   @-webkit-keyframes pulse_arrow {
