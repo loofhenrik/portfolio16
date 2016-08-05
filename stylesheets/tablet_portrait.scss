@@ -137,12 +137,12 @@
   .about {
     position: relative;
     margin: 0;
-    padding: 35% 5% 3% 5%;
+    padding: 30% 5% 3% 5%;
     width: 90%;
     height: 20%;
 
     background: $red;
-    //background: radial-gradient(#FF6347, #eb523c);
+    background: linear-gradient(225deg, transparent 120px, $red 0), linear-gradient(225deg, transparent 60px, $red_2 0), linear-gradient(225deg, transparent 0px, $red_3 0);
     box-shadow: 1px 1px 5px black;
 
     p {
@@ -160,67 +160,70 @@
 
   .skills {
     position: relative;
-    height: 33%;
+    height: 24%;
 
     //background: #222;
 
     span#html5 {
       top: 38%;
       left: 42%;
-      font-size: 28px;
+      font-size: 24px;
       color: white;
     }
 
     span#css3 {
       top: 53%;
       left: 24%;
-      font-size: 28px;
+      font-size: 24px;
       color: $red;
     }
 
     span#js {
       top: 55%;
       right: 20%;
-      font-size: 28px;
+      font-size: 24px;
       color: $blue;
     }
 
     span#jquery {
       top: 25%;
       right: 19%;
+      font-size: 14px;
       color: white;
     }
 
     span#ux {
       top: 38%;
       right: 22%;
-      font-size: 20px;
+      font-size: 18px;
       color: $red;
     }
 
     span#responsive {
       top: 36%;
       left: 11%;
-      font-size: 20px;
+      font-size: 18px;
       color: $red;
     }
 
     span#sass {
       top: 73%;
       right: 32%;
-      font-size: 20px;
+      font-size: 18px;
       color: $red;
     }
 
     span#gulp {
       top: 54%;
       right: 7%;
+      font-size: 14px;
       color: white;
     }
 
     span#php {
       top: 58%;
       left: 11%;
+      font-size: 14px;
       color: $blue;
 
     }
@@ -228,12 +231,14 @@
     span#wp {
       top: 76%;
       left: 25%;
+      font-size: 14px;
       color: white;
     }
 
     span#git {
       top: 23%;
       left: 19%;
+      font-size: 14px;
       color: $blue;
     }
 
@@ -248,7 +253,7 @@
     content: " ";
     display: block;
     position: absolute;
-    top: 0px;
+    top: -1px;
     left: 0px;
     width: 100%;
     height: 50px;
@@ -471,6 +476,7 @@
     padding: 2% 3%;
     width: 260px;
     background: white;
+    background: linear-gradient(-45deg, transparent 130px, white 0), linear-gradient(-45deg, transparent 90px, $white_2 0), linear-gradient(-45deg, transparent 50px, $white_3 0);
     border: 1px solid #666;
 
     display: none;

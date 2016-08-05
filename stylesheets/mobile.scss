@@ -299,7 +299,8 @@
       width: 80%;
 
       background: #444;
-      background: radial-gradient(#444444, #333333);
+      background: linear-gradient(-45deg, transparent 140px, #222 0), linear-gradient(-45deg, transparent 70px, #333 0), linear-gradient(-45deg, transparent 0px, #444 0);
+
 
       display: none;
 
@@ -449,42 +450,6 @@
 
   .credit_icon {
     display: none;
-    position: relative;
-    z-index: 100;
-    bottom: -50px;
-    left: 40%;
-
-    width: 100px;
-    height: 100px;
-    background: $blue;
-    box-shadow: -1px -1px 3px #333;
-
-    transform: rotate(45deg);
-    transition: all 0.6s ease;
-
-    cursor: pointer;
-
-    p {
-      font-size: 24px;
-      color: white;
-      text-shadow: 0 1px 1px $blue_dark;
-      cursor: pointer;
-      position: absolute;
-      bottom: 0px;
-      left: 0px;
-
-      transform: rotate(-45deg);
-      transition: all 0.5s ease;
-
-    }
-  }
-
-  .credit_icon:hover {
-    background: $blue_dark;
-    p {
-      color: white;
-      text-shadow: none;
-    }
   }
 
   .credit_content {
@@ -496,7 +461,8 @@
     margin: 0;
     padding: 5%;
     width: 90%;
-    background: #222;
+    background: linear-gradient(-45deg, transparent 100px, #222 0), linear-gradient(-45deg, transparent 50px, #333 0), linear-gradient(-45deg, transparent 0px, #444 0);
+
 
     //display: none;
 
@@ -511,5 +477,9 @@
       text-decoration: none;
     }
 
+  }
+  .credit_content a:active {
+    color: $blue_dark;
+    text-decoration: underline;
   }
 }
