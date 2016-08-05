@@ -772,9 +772,9 @@ textarea {
     border: 5px solid tomato;
     border-radius: 50%; }
 
-  /*.header_shadow {
-    box-shadow: 0 1px 2px #222;
-  }*/
+  .header_shadow {
+    box-shadow: 0 1px 2px #222; }
+
   .contact {
     position: fixed;
     top: 60px;
