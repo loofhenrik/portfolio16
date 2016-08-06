@@ -4,12 +4,7 @@
     <list default="true" id="fa184759-d4ff-4ae1-844c-d4fed56c392c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/mobile.scss" afterPath="$PROJECT_DIR$/stylesheets/mobile.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/mobile_large.scss" afterPath="$PROJECT_DIR$/stylesheets/mobile_large.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/style.css" afterPath="$PROJECT_DIR$/stylesheets/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/style.css.map" afterPath="$PROJECT_DIR$/stylesheets/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/tablet_landscape.scss" afterPath="$PROJECT_DIR$/stylesheets/tablet_landscape.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/tablet_portrait.scss" afterPath="$PROJECT_DIR$/stylesheets/tablet_portrait.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/variables.scss" afterPath="$PROJECT_DIR$/stylesheets/variables.scss" />
     </list>
     <ignored path="portfolio16.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,8 +58,8 @@
       <file leaf-file-name="mobile.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/mobile.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38034865">
-              <caret line="181" column="13" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.73692554">
+              <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -488,8 +483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/mobile.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38034865">
-          <caret line="181" column="13" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.73692554">
+          <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
           <folding />
         </state>
       </provider>
