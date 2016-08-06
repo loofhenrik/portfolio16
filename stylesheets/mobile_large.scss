@@ -1,4 +1,4 @@
-@media only screen  and (max-width : 320px) {
+@media only screen  and (min-width : 321px) and (max-width: 415px) {
 
   body, .container {
     margin: 0;
@@ -35,7 +35,7 @@
     h1, h2 {
       position: relative;
       top: 5px;
-      right: 10px;
+      right: 12%;
       text-align: right;
     }
 
@@ -59,8 +59,8 @@
     width: 90px;
 
     position: relative;
-    bottom: 32px;
-    left: 16px;
+    bottom: 40px;
+    left: 12%;
     z-index: 51;
 
     //border: 5px solid $red;
@@ -122,17 +122,17 @@
 
   .flaticon-note {
     top: 18px;
-    right: 45%;
+    right: 39%;
   }
 
   .flaticon-technology {
     top: 18px;
-    right: 25%;
+    right: 24.5%;
   }
 
   .flaticon-linkedin-letters {
     top: 18px;
-    right: 5%;
+    right: 12%;
   }
 
   //--------------------------------------- ABOUT ----------------------------------
@@ -142,9 +142,9 @@
     top: 0px;
     left: 0px;
     margin: 0;
-    padding: 5%;
+    padding: 10%;
     padding-top: calc(5% + 120px);
-    width: 90%;
+    width: 80%;
     height: 20%;
 
     background: $red;
@@ -174,62 +174,63 @@
     span#html5 {
       top: 38%;
       left: 42%;
-      font-size: 24px;
+      font-size: 26px;
       color: white;
     }
 
     span#css3 {
       top: 53%;
       left: 24%;
-      font-size: 24px;
+      font-size: 26px;
       color: $red;
     }
 
     span#js {
       top: 55%;
       right: 20%;
-      font-size: 24px;
+      font-size: 26px;
       color: $blue;
     }
 
     span#jquery {
       top: 25%;
       right: 20%;
+      font-size: 14px;
       color: white;
     }
 
     span#ux {
       top: 38%;
       right: 22%;
-      font-size: 16px;
+      font-size: 18px;
       color: $red;
     }
 
     span#responsive {
       top: 36%;
       left: 11%;
-      font-size: 16px;
+      font-size: 18px;
       color: $red;
     }
 
     span#sass {
       top: 73%;
       right: 32%;
-      font-size: 16px;
+      font-size: 18px;
       color: $red;
     }
 
     span#gulp {
       top: 54%;
       right: 7%;
-      font-size: 12px;
+      font-size: 14px;
       color: white;
     }
 
     span#php {
       top: 58%;
       left: 11%;
-      font-size: 12px;
+      font-size: 14px;
       color: $blue;
 
     }
@@ -237,14 +238,14 @@
     span#wp {
       top: 76%;
       left: 25%;
-      font-size: 12px;
+      font-size: 14px;
       color: white;
     }
 
     span#git {
       top: 22%;
       left: 20%;
-      font-size: 12px;
+      font-size: 14px;
       color: $blue;
     }
 
@@ -398,10 +399,10 @@
   }
 
   .pulse_arrow {*/
-    //-webkit-animation: pulse_arrow 3s infinite; /* Safari 4+ */
-    //-moz-animation: pulse_arrow 3s infinite; /* Fx 5+ */
-    //-o-animation: pulse_arrow 3s infinite; /* Opera 12+ */
-    //animation: pulse_arrow 3s infinite; /* IE 10+, Fx 29+ */
+  //-webkit-animation: pulse_arrow 3s infinite; /* Safari 4+ */
+  //-moz-animation: pulse_arrow 3s infinite; /* Fx 5+ */
+  //-o-animation: pulse_arrow 3s infinite; /* Opera 12+ */
+  //animation: pulse_arrow 3s infinite; /* IE 10+, Fx 29+ */
   /*}
 
   @-webkit-keyframes pulse_arrow {

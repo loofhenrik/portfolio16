@@ -9,10 +9,7 @@
     background: #222;
     background: radial-gradient(#333333, #111111);
 
-    font-family: "Gill Sans";
-    //font-family: 'Palanquin', sans-serif, Arial, Helvetica;
-
-
+    font-family: 'Pavanam', sans-serif, "Gill Sans";
 
     .toggle_text {
       display: none;
@@ -42,8 +39,9 @@
 
     h1, h2 {
       position: absolute;
-      bottom: 20%;
-      right: 0;
+      bottom: 0;
+      right: 20px;
+
     }
 
     h1 {
@@ -68,7 +66,11 @@
     bottom: -79px;
     left: 16px;
 
-    border: 7px solid $red;
+    //border: 7px solid $red;
+    border-top: 7px solid $red_2;
+    border-right: 7px solid $red_3;
+    border-left: 7px solid $red;
+    border-bottom: 7px solid $red;
     border-radius: 50%;
 
     //transform: rotate(45deg);
@@ -137,9 +139,9 @@
   .about {
     position: relative;
     margin: 0;
-    padding: 35% 5% 3% 5%;
+    padding: 30% 5% 3% 5%;
     width: 90%;
-    height: 20%;
+    height: 25%;
 
     background: $red;
     background: linear-gradient(225deg, transparent 120px, $red 0), linear-gradient(225deg, transparent 60px, $red_2 0), linear-gradient(225deg, transparent 0px, $red_3 0);
