@@ -412,7 +412,7 @@ textarea {
     bottom: -79px;
     left: 16px;
     border-top: 7px solid #e6593f;
-    border-right: 7px solid #D5533B;
+    border-right: 7px solid #cd533b;
     border-left: 7px solid tomato;
     border-bottom: 7px solid tomato;
     border-radius: 50%; }
@@ -466,7 +466,7 @@ textarea {
     width: 90%;
     height: 25%;
     background: tomato;
-    background: linear-gradient(225deg, transparent 120px, tomato 0), linear-gradient(225deg, transparent 60px, #e6593f 0), linear-gradient(225deg, transparent 0px, #D5533B 0);
+    background: linear-gradient(225deg, transparent 120px, tomato 0), linear-gradient(225deg, transparent 60px, #e6593f 0), linear-gradient(225deg, transparent 0px, #cd533b 0);
     box-shadow: 1px 1px 5px black; }
     .about p {
       font-size: 16px;
@@ -777,7 +777,7 @@ textarea {
     bottom: -79px;
     left: 16px;
     border-top: 7px solid #e6593f;
-    border-right: 7px solid #D5533B;
+    border-right: 7px solid #cd533b;
     border-left: 7px solid tomato;
     border-bottom: 7px solid tomato;
     border-radius: 50%; }
@@ -827,11 +827,11 @@ textarea {
   .about {
     position: relative;
     margin: 0;
-    padding: 35% 5% 3% 5%;
+    padding: 30% 5% 3% 5%;
     width: 90%;
-    height: 20%;
+    height: 25%;
     background: tomato;
-    background: linear-gradient(225deg, transparent 120px, tomato 0), linear-gradient(225deg, transparent 60px, #e6593f 0), linear-gradient(225deg, transparent 0px, #D5533B 0);
+    background: linear-gradient(225deg, transparent 120px, tomato 0), linear-gradient(225deg, transparent 60px, #e6593f 0), linear-gradient(225deg, transparent 0px, #cd533b 0);
     box-shadow: 1px 1px 5px black; }
     .about p {
       font-size: 16px;
@@ -1137,7 +1137,7 @@ textarea {
     bottom: -58px;
     left: 8px;
     border-top: 7px solid #e6593f;
-    border-right: 7px solid #D5533B;
+    border-right: 7px solid #cd533b;
     border-left: 7px solid tomato;
     border-bottom: 7px solid tomato;
     border-radius: 50%; }
@@ -1187,11 +1187,11 @@ textarea {
   .about {
     position: relative;
     margin: 0;
-    padding: 30% 5% 3% 5%;
+    padding: 25% 5% 3% 5%;
     width: 90%;
-    height: 20%;
+    height: 25%;
     background: tomato;
-    background: linear-gradient(225deg, transparent 120px, tomato 0), linear-gradient(225deg, transparent 60px, #e6593f 0), linear-gradient(225deg, transparent 0px, #D5533B 0);
+    background: linear-gradient(225deg, transparent 120px, tomato 0), linear-gradient(225deg, transparent 60px, #e6593f 0), linear-gradient(225deg, transparent 0px, #cd533b 0);
     box-shadow: 1px 1px 5px black; }
     .about p {
       font-size: 16px;
@@ -1483,7 +1483,7 @@ textarea {
     header h1, header h2 {
       position: relative;
       top: 5px;
-      right: 12%;
+      right: 14%;
       text-align: right; }
     header h1 {
       font-size: 24px;
@@ -1491,7 +1491,7 @@ textarea {
       margin: 0; }
     header h2 {
       font-size: 14px;
-      letter-spacing: 1px;
+      letter-spacing: 2px;
       color: cornflowerblue;
       margin: 0; }
 
@@ -1501,11 +1501,11 @@ textarea {
     height: 90px;
     width: 90px;
     position: relative;
-    bottom: 40px;
+    bottom: 39px;
     left: 12%;
     z-index: 51;
     border-top: 7px solid #e6593f;
-    border-right: 7px solid #D5533B;
+    border-right: 7px solid #cd533b;
     border-left: 7px solid tomato;
     border-bottom: 7px solid tomato;
     border-radius: 50%; }
@@ -1581,48 +1581,48 @@ textarea {
     top: 0px;
     height: 200px; }
     .skills span#html5 {
-      top: 38%;
+      top: 36%;
       left: 42%;
-      font-size: 26px;
+      font-size: 28px;
       color: white; }
     .skills span#css3 {
-      top: 53%;
+      top: 50%;
       left: 24%;
-      font-size: 26px;
+      font-size: 28px;
       color: tomato; }
     .skills span#js {
       top: 55%;
       right: 20%;
-      font-size: 26px;
+      font-size: 28px;
       color: cornflowerblue; }
     .skills span#jquery {
       top: 25%;
-      right: 20%;
+      right: 22%;
       font-size: 14px;
       color: white; }
     .skills span#ux {
       top: 38%;
-      right: 22%;
+      right: 24%;
       font-size: 18px;
       color: tomato; }
     .skills span#responsive {
       top: 36%;
-      left: 11%;
+      left: 13%;
       font-size: 18px;
       color: tomato; }
     .skills span#sass {
       top: 73%;
-      right: 32%;
+      right: 34%;
       font-size: 18px;
       color: tomato; }
     .skills span#gulp {
       top: 54%;
-      right: 7%;
+      right: 9%;
       font-size: 14px;
       color: white; }
     .skills span#php {
       top: 58%;
-      left: 11%;
+      left: 13%;
       font-size: 14px;
       color: cornflowerblue; }
     .skills span#wp {
@@ -1632,7 +1632,7 @@ textarea {
       color: white; }
     .skills span#git {
       top: 22%;
-      left: 20%;
+      left: 22%;
       font-size: 14px;
       color: cornflowerblue; }
 
@@ -1843,7 +1843,7 @@ textarea {
     header h1, header h2 {
       position: relative;
       top: 5px;
-      right: 10px;
+      right: 7%;
       text-align: right; }
     header h1 {
       font-size: 24px;
@@ -1851,7 +1851,7 @@ textarea {
       margin: 0; }
     header h2 {
       font-size: 14px;
-      letter-spacing: 1px;
+      letter-spacing: 2px;
       color: cornflowerblue;
       margin: 0; }
 
@@ -1865,7 +1865,7 @@ textarea {
     left: 16px;
     z-index: 51;
     border-top: 7px solid #e6593f;
-    border-right: 7px solid #D5533B;
+    border-right: 7px solid #cd533b;
     border-left: 7px solid tomato;
     border-bottom: 7px solid tomato;
     border-radius: 50%; }
@@ -1946,8 +1946,8 @@ textarea {
       font-size: 24px;
       color: white; }
     .skills span#css3 {
-      top: 53%;
-      left: 24%;
+      top: 51%;
+      left: 22%;
       font-size: 24px;
       color: tomato; }
     .skills span#js {

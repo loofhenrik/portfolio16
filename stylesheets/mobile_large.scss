@@ -35,7 +35,7 @@
     h1, h2 {
       position: relative;
       top: 5px;
-      right: 12%;
+      right: 14%;
       text-align: right;
     }
 
@@ -46,7 +46,7 @@
     }
     h2 {
       font-size: 14px;
-      letter-spacing: 1px;
+      letter-spacing: 2px;
       color: $blue;
       margin: 0;
     }
@@ -59,7 +59,7 @@
     width: 90px;
 
     position: relative;
-    bottom: 40px;
+    bottom: 39px;
     left: 12%;
     z-index: 51;
 
@@ -172,64 +172,64 @@
     //background: #222;
 
     span#html5 {
-      top: 38%;
+      top: 36%;
       left: 42%;
-      font-size: 26px;
+      font-size: 28px;
       color: white;
     }
 
     span#css3 {
-      top: 53%;
+      top: 50%;
       left: 24%;
-      font-size: 26px;
+      font-size: 28px;
       color: $red;
     }
 
     span#js {
       top: 55%;
       right: 20%;
-      font-size: 26px;
+      font-size: 28px;
       color: $blue;
     }
 
     span#jquery {
       top: 25%;
-      right: 20%;
+      right: 22%;
       font-size: 14px;
       color: white;
     }
 
     span#ux {
       top: 38%;
-      right: 22%;
+      right: 24%;
       font-size: 18px;
       color: $red;
     }
 
     span#responsive {
       top: 36%;
-      left: 11%;
+      left: 13%;
       font-size: 18px;
       color: $red;
     }
 
     span#sass {
       top: 73%;
-      right: 32%;
+      right: 34%;
       font-size: 18px;
       color: $red;
     }
 
     span#gulp {
       top: 54%;
-      right: 7%;
+      right: 9%;
       font-size: 14px;
       color: white;
     }
 
     span#php {
       top: 58%;
-      left: 11%;
+      left: 13%;
       font-size: 14px;
       color: $blue;
 
@@ -244,7 +244,7 @@
 
     span#git {
       top: 22%;
-      left: 20%;
+      left: 22%;
       font-size: 14px;
       color: $blue;
     }
