@@ -34,6 +34,8 @@
 
     h1, h2 {
       position: relative;
+      margin: 0;
+      padding: 0;
       top: 5px;
       right: 7%;
       text-align: right;
@@ -46,7 +48,7 @@
     }
     h2 {
       font-size: 14px;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
       color: $blue;
       margin: 0;
     }
@@ -270,7 +272,7 @@
   .portfolio_content {
     position: relative;
     top:0px;
-    margin: 0 0 0 0;
+    margin: 0;
     padding: 1%;
     width: 98%;
 
