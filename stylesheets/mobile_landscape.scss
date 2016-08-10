@@ -1,4 +1,4 @@
-@media only screen  and (min-width : 738px) and (max-width: 769px) {
+@media only screen  and (min-width : 416px) and (max-width: 568px) {
 
   body, .container {
     margin: 0;
@@ -24,7 +24,7 @@
     left: 0;
     margin: 0;
     padding: 0;
-    width: 300px;
+    width: 400px;
     height: 100%;
 
     //background: #222;
@@ -34,7 +34,7 @@
     position: relative;
     margin: 0;
     padding: 0;
-    height: 15%;
+    height: 25%;
     //background: #222;
 
     h1, h2 {
@@ -44,12 +44,12 @@
     }
 
     h1 {
-      font-size: 28px;
+      font-size: 34px;
       letter-spacing: 2px;
     }
     h2 {
       margin: 10px 0;
-      font-size: 16px;
+      font-size: 18px;
       letter-spacing: 1px;
       color: $blue;
     }
@@ -58,12 +58,12 @@
   img.profile_image {
     padding: 0;
     margin: 0;
-    width: 30%;
+    width: 36%;
 
     position: absolute;
     z-index: 50;
-    bottom: -58px;
-    left: 8px;
+    bottom: -79px;
+    left: 16px;
 
     //border: 7px solid $red;
     border-top: 7px solid $red_2;
@@ -92,7 +92,7 @@
   }
 
   .contact ul li a i:before {
-    font-size: 22px;
+    font-size: 30px;
     margin: 0;
     padding: 12px;
     border-radius: 50%;
@@ -118,19 +118,19 @@
   }
 
   .flaticon-note {
-    top: 20px;
-    right: 43%;
+    top: 30px;
+    right: 40%;
   }
 
   .flaticon-technology {
 
-    top: 20px;
-    right: 23%;
+    top: 30px;
+    right: 22.5%;
   }
 
   .flaticon-linkedin-letters {
-    top: 20px;
-    right: 3%;
+    top: 30px;
+    right: 5%;
   }
 
   //--------------------------------------- ABOUT ----------------------------------
@@ -138,7 +138,7 @@
   .about {
     position: relative;
     margin: 0;
-    padding: 25% 5% 3% 5%;
+    padding: 30% 5% 3% 5%;
     width: 90%;
     height: 25%;
 
@@ -161,70 +161,67 @@
 
   .skills {
     position: relative;
-    height: 24%;
+    height: 33%;
 
     //background: #222;
 
     span#html5 {
       top: 38%;
       left: 42%;
-      font-size: 24px;
+      font-size: 28px;
       color: white;
     }
 
     span#css3 {
       top: 53%;
       left: 24%;
-      font-size: 24px;
+      font-size: 28px;
       color: $red;
     }
 
     span#js {
       top: 55%;
       right: 20%;
-      font-size: 24px;
+      font-size: 28px;
       color: $blue;
     }
 
     span#jquery {
       top: 25%;
       right: 19%;
-      font-size: 14px;
       color: white;
     }
 
     span#ux {
       top: 38%;
       right: 22%;
-      font-size: 18px;
+      font-size: 20px;
       color: $red;
     }
 
     span#responsive {
       top: 36%;
       left: 11%;
-      font-size: 18px;
+      font-size: 20px;
       color: $red;
     }
 
     span#sass {
       top: 73%;
       right: 32%;
-      font-size: 18px;
+      font-size: 20px;
       color: $red;
     }
 
     span#gulp {
       top: 54%;
       right: 7%;
-      font-size: 14px;
       color: white;
     }
 
     span#php {
       top: 58%;
       left: 11%;
-      font-size: 14px;
       color: $blue;
 
     }
@@ -232,14 +229,12 @@
     span#wp {
       top: 76%;
       left: 25%;
-      font-size: 14px;
       color: white;
     }
 
     span#git {
       top: 23%;
       left: 19%;
-      font-size: 14px;
       color: $blue;
     }
 
@@ -265,10 +260,7 @@
   .portfolio_content {
     margin: 0 0 0 0;
     padding: 1%;
-    width: calc(98% - 300px);
-    min-height: 100vh;
-
-    //background-color: #222;
+    width: calc(98% - 400px);
 
     float: right;
     display: flex;
