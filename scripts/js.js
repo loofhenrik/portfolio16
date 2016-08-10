@@ -35,8 +35,6 @@ if(windowWidth <= 736) {
 }
 //------------------------------ SHOW CREDIT --------------------------------
 
-if(windowWidth >= 568) {
-    $('.credit_icon').click(function () {
-        $('.credit_content').slideToggle(500);
-    });
-}
+$('.credit_icon').click(function () {
+    $('.credit_content').slideToggle(500);
+});
