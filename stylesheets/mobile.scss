@@ -157,6 +157,8 @@
     height: 20%;
 
     background: $red;
+    background: linear-gradient(225deg, transparent 160px, $red 0), linear-gradient(225deg, transparent 110px, $red_2 0), linear-gradient(225deg, transparent 0px, $red_3 0);
+
     //background: radial-gradient(#FF6347, #eb523c);
     box-shadow: 1px 1px 5px black;
 

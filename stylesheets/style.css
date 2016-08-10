@@ -1507,13 +1507,13 @@ textarea {
     height: 15%; }
     header h1, header h2 {
       position: absolute;
-      bottom: -5px;
+      bottom: -2px;
       right: 10px; }
     header h1 {
-      font-size: 24px;
+      font-size: 22px;
       letter-spacing: 2px; }
     header h2 {
-      margin: 10px 0;
+      margin: 5px 0;
       font-size: 12px;
       letter-spacing: 1px;
       color: cornflowerblue; }
@@ -1581,7 +1581,7 @@ textarea {
     width: 90%;
     height: 30%;
     background: tomato;
-    background: linear-gradient(225deg, transparent 120px, tomato 0), linear-gradient(225deg, transparent 60px, #e6593f 0), linear-gradient(225deg, transparent 0px, #cd533b 0);
+    background: linear-gradient(225deg, transparent 100px, tomato 0), linear-gradient(225deg, transparent 50px, #e6593f 0), linear-gradient(225deg, transparent 0px, #cd533b 0);
     box-shadow: 1px 1px 5px black; }
     .about p {
       font-size: 12px;
@@ -1891,13 +1891,13 @@ textarea {
     height: 15%; }
     header h1, header h2 {
       position: absolute;
-      bottom: -5px;
+      bottom: -2px;
       right: 10px; }
     header h1 {
-      font-size: 24px;
+      font-size: 22px;
       letter-spacing: 2px; }
     header h2 {
-      margin: 10px 0;
+      margin: 5px 0;
       font-size: 12px;
       letter-spacing: 1px;
       color: cornflowerblue; }
@@ -1965,7 +1965,7 @@ textarea {
     width: 90%;
     height: 30%;
     background: tomato;
-    background: linear-gradient(225deg, transparent 120px, tomato 0), linear-gradient(225deg, transparent 60px, #e6593f 0), linear-gradient(225deg, transparent 0px, #cd533b 0);
+    background: linear-gradient(225deg, transparent 100px, tomato 0), linear-gradient(225deg, transparent 50px, #e6593f 0), linear-gradient(225deg, transparent 0px, #cd533b 0);
     box-shadow: 1px 1px 5px black; }
     .about p {
       font-size: 12px;
@@ -2361,6 +2361,7 @@ textarea {
     width: 80%;
     height: 20%;
     background: tomato;
+    background: linear-gradient(225deg, transparent 160px, tomato 0), linear-gradient(225deg, transparent 110px, #e6593f 0), linear-gradient(225deg, transparent 0px, #cd533b 0);
     box-shadow: 1px 1px 5px black; }
     .about p {
       font-size: 16px;
@@ -2728,6 +2729,7 @@ textarea {
     width: 90%;
     height: 20%;
     background: tomato;
+    background: linear-gradient(225deg, transparent 160px, tomato 0), linear-gradient(225deg, transparent 110px, #e6593f 0), linear-gradient(225deg, transparent 0px, #cd533b 0);
     box-shadow: 1px 1px 5px black; }
     .about p {
       font-size: 16px;

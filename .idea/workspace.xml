@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa184759-d4ff-4ae1-844c-d4fed56c392c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/augustinyak.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/chatup.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/laios.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/mastermind.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/themilkman.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/tm.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/desktop.scss" afterPath="$PROJECT_DIR$/stylesheets/desktop.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/mobile.scss" afterPath="$PROJECT_DIR$/stylesheets/mobile.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/mobile_landscape.scss" afterPath="$PROJECT_DIR$/stylesheets/mobile_landscape.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/mobile_landscape_large.scss" afterPath="$PROJECT_DIR$/stylesheets/mobile_landscape_large.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/mobile_large.scss" afterPath="$PROJECT_DIR$/stylesheets/mobile_large.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/style.css" afterPath="$PROJECT_DIR$/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/style.css.map" afterPath="$PROJECT_DIR$/stylesheets/style.css.map" />
     </list>
@@ -43,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="desktop.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="desktop.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/desktop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49307957">
+            <state vertical-scroll-proportion="-3.7012987">
               <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
               <folding />
             </state>
@@ -56,18 +51,18 @@
       <file leaf-file-name="mobile.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/mobile.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state vertical-scroll-proportion="-11.875">
+              <caret line="159" column="84" selection-start-line="159" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mobile_large.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mobile_large.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/mobile_large.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.38961038">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.44117647">
+              <caret line="78" column="2" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -86,8 +81,8 @@
       <file leaf-file-name="mobile_landscape.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/mobile_landscape.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="-21.875">
+              <caret line="58" column="5" selection-start-line="43" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -96,8 +91,8 @@
       <file leaf-file-name="mobile_landscape_large.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/mobile_landscape_large.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="-14.375">
+              <caret line="148" column="53" selection-start-line="148" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -143,15 +138,15 @@
       <list>
         <option value="$PROJECT_DIR$/stylesheets/variables.scss" />
         <option value="$PROJECT_DIR$/stylesheets/style.scss" />
-        <option value="$PROJECT_DIR$/stylesheets/mobile_landscape_large.scss" />
-        <option value="$PROJECT_DIR$/stylesheets/mobile_landscape.scss" />
-        <option value="$PROJECT_DIR$/stylesheets/mobile_large.scss" />
-        <option value="$PROJECT_DIR$/stylesheets/mobile.scss" />
         <option value="$PROJECT_DIR$/stylesheets/tablet_landscape.scss" />
         <option value="$PROJECT_DIR$/stylesheets/tablet_portrait.scss" />
         <option value="$PROJECT_DIR$/scripts/js.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/stylesheets/desktop.scss" />
+        <option value="$PROJECT_DIR$/stylesheets/mobile_landscape.scss" />
+        <option value="$PROJECT_DIR$/stylesheets/mobile_landscape_large.scss" />
+        <option value="$PROJECT_DIR$/stylesheets/mobile.scss" />
+        <option value="$PROJECT_DIR$/stylesheets/mobile_large.scss" />
       </list>
     </option>
   </component>
@@ -523,38 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mobile_landscape_large.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mobile_landscape.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mobile_large.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.38961038">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mobile.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/tablet_landscape.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.5584415">
@@ -589,8 +552,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/desktop.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49307957">
+        <state vertical-scroll-proportion="-3.7012987">
           <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/mobile_landscape.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.875">
+          <caret line="58" column="5" selection-start-line="43" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/mobile_landscape_large.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.375">
+          <caret line="148" column="53" selection-start-line="148" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/mobile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.875">
+          <caret line="159" column="84" selection-start-line="159" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/mobile_large.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44117647">
+          <caret line="78" column="2" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
           <folding />
         </state>
       </provider>
