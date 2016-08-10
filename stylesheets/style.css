@@ -378,7 +378,8 @@ textarea {
     color: white;
     background: #222;
     background: radial-gradient(#333333, #111111);
-    font-family: 'Pavanam', sans-serif, "Gill Sans"; }
+    font-family: 'Pavanam', sans-serif, "Gill Sans";
+    font-size: 14px; }
     .container .toggle_text {
       display: none; }
 
@@ -556,7 +557,8 @@ textarea {
     float: right;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start; }
+    align-items: flex-start;
+    justify-content: center; }
     .portfolio_content .section {
       position: relative;
       z-index: 10;

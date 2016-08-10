@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa184759-d4ff-4ae1-844c-d4fed56c392c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/all.min.js" afterPath="$PROJECT_DIR$/dist/all.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/augustinyak.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/chatup.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/laios.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/mastermind.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/themilkman.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/tm.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/js.js" afterPath="$PROJECT_DIR$/scripts/js.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/desktop.scss" afterPath="$PROJECT_DIR$/stylesheets/desktop.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/style.css" afterPath="$PROJECT_DIR$/stylesheets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/style.css.map" afterPath="$PROJECT_DIR$/stylesheets/style.css.map" />
     </list>
     <ignored path="portfolio16.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="desktop.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="desktop.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/desktop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3636364">
-              <caret line="7" column="3" selection-start-line="2" selection-start-column="2" selection-end-line="7" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.49307957">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -115,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33438987">
-              <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+            <state vertical-scroll-proportion="-9.416667">
+              <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -135,7 +143,6 @@
       <list>
         <option value="$PROJECT_DIR$/stylesheets/variables.scss" />
         <option value="$PROJECT_DIR$/stylesheets/style.scss" />
-        <option value="$PROJECT_DIR$/stylesheets/desktop.scss" />
         <option value="$PROJECT_DIR$/stylesheets/mobile_landscape_large.scss" />
         <option value="$PROJECT_DIR$/stylesheets/mobile_landscape.scss" />
         <option value="$PROJECT_DIR$/stylesheets/mobile_large.scss" />
@@ -144,6 +151,7 @@
         <option value="$PROJECT_DIR$/stylesheets/tablet_portrait.scss" />
         <option value="$PROJECT_DIR$/scripts/js.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/stylesheets/desktop.scss" />
       </list>
     </option>
   </component>
@@ -337,6 +345,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio16" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio16" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -501,14 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/desktop.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3636364">
-          <caret line="7" column="3" selection-start-line="2" selection-start-column="2" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/mobile_landscape_large.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0">
@@ -567,8 +581,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33438987">
-          <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+        <state vertical-scroll-proportion="-9.416667">
+          <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/desktop.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49307957">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding />
         </state>
       </provider>

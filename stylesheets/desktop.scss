@@ -17,6 +17,7 @@
     background: radial-gradient(#333333, #111111);
 
     font-family: 'Pavanam', sans-serif, "Gill Sans";
+    font-size: 14px;
 
     .toggle_text {
       display: none;
@@ -274,6 +275,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: center;
 
     .section {
       position: relative;
