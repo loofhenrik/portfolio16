@@ -1,22 +1,8 @@
 var windowWidth = window.innerWidth;
 console.log(windowWidth);
 
-if(windowWidth >= 416) {
-    $('.credit_icon').click(function () {
-        $('.credit_content').slideToggle(500);
-    });
-}
-
+//-------------------------------- HEADER SHADOW ON MOBILE DEVICE -----------------------------
 if(windowWidth <= 415) {
-    $('.toggle_text').click(function () {
-        console.log("Toggleclicked");
-        $(this).parent().children('.img_color').slideToggle(500);
-        $(this).children('.toggle_show').toggle(500);
-        $(this).children('.toggle_hide').toggle(500);
-
-    });
-
-
     window.onscroll = function () {
         var y = document.body.scrollTop;
 
@@ -34,4 +20,23 @@ if(windowWidth <= 415) {
             }
         });
     };
+}
+
+//------------------------------ TOGGLE TEXT ON MOBILE DEVICE -------------------------
+
+if(windowWidth <= 736) {
+    $('.toggle_text').click(function () {
+        console.log("Toggleclicked");
+        $(this).parent().children('.img_color').slideToggle(500);
+        $(this).children('.toggle_show').toggle(500);
+        $(this).children('.toggle_hide').toggle(500);
+
+    });
+}
+//------------------------------ SHOW CREDIT --------------------------------
+
+if(windowWidth >= 568) {
+    $('.credit_icon').click(function () {
+        $('.credit_content').slideToggle(500);
+    });
 }
