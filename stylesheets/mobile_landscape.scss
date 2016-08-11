@@ -135,16 +135,16 @@
   .about {
     position: relative;
     margin: 0;
-    padding: 20% 5% 5% 5%;
+    padding: 17% 5% 5% 5%;
     width: 90%;
-    height: 30%;
+    height: 33%;
 
     background: $red;
     background: linear-gradient(225deg, transparent 100px, $red 0), linear-gradient(225deg, transparent 50px, $red_2 0), linear-gradient(225deg, transparent 0px, $red_3 0);
     box-shadow: 1px 1px 5px black;
 
     p {
-      font-size: 12px;
+      font-size: 10px;
       text-shadow: 0 1px 1px $red_dark;
 
     }

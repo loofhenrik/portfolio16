@@ -469,14 +469,14 @@ textarea {
   .about {
     position: relative;
     margin: 0;
-    padding: 30% 5% 3% 5%;
+    padding: 25% 5% 3% 5%;
     width: 90%;
-    height: 25%;
+    height: 30%;
     background: tomato;
     background: linear-gradient(225deg, transparent 120px, tomato 0), linear-gradient(225deg, transparent 60px, #e6593f 0), linear-gradient(225deg, transparent 0px, #cd533b 0);
     box-shadow: 1px 1px 5px black; }
     .about p {
-      font-size: 16px;
+      font-size: 14px;
       text-shadow: 0 1px 1px #9b402c; }
 
   .skills > span {
@@ -841,9 +841,9 @@ textarea {
   .about {
     position: relative;
     margin: 0;
-    padding: 30% 5% 3% 5%;
+    padding: 25% 5% 3% 5%;
     width: 90%;
-    height: 25%;
+    height: 30%;
     background: tomato;
     background: linear-gradient(225deg, transparent 120px, tomato 0), linear-gradient(225deg, transparent 60px, #e6593f 0), linear-gradient(225deg, transparent 0px, #cd533b 0);
     box-shadow: 1px 1px 5px black; }
@@ -1207,9 +1207,9 @@ textarea {
   .about {
     position: relative;
     margin: 0;
-    padding: 25% 5% 3% 5%;
+    padding: 30% 5% 3% 5%;
     width: 90%;
-    height: 25%;
+    height: 30%;
     background: tomato;
     background: linear-gradient(225deg, transparent 120px, tomato 0), linear-gradient(225deg, transparent 60px, #e6593f 0), linear-gradient(225deg, transparent 0px, #cd533b 0);
     box-shadow: 1px 1px 5px black; }
@@ -1577,14 +1577,14 @@ textarea {
   .about {
     position: relative;
     margin: 0;
-    padding: 20% 5% 5% 5%;
+    padding: 18% 5% 5% 5%;
     width: 90%;
-    height: 30%;
+    height: 32%;
     background: tomato;
     background: linear-gradient(225deg, transparent 100px, tomato 0), linear-gradient(225deg, transparent 50px, #e6593f 0), linear-gradient(225deg, transparent 0px, #cd533b 0);
     box-shadow: 1px 1px 5px black; }
     .about p {
-      font-size: 12px;
+      font-size: 10px;
       text-shadow: 0 1px 1px #9b402c; }
 
   .skills > span {
@@ -1961,14 +1961,14 @@ textarea {
   .about {
     position: relative;
     margin: 0;
-    padding: 20% 5% 5% 5%;
+    padding: 17% 5% 5% 5%;
     width: 90%;
-    height: 30%;
+    height: 33%;
     background: tomato;
     background: linear-gradient(225deg, transparent 100px, tomato 0), linear-gradient(225deg, transparent 50px, #e6593f 0), linear-gradient(225deg, transparent 0px, #cd533b 0);
     box-shadow: 1px 1px 5px black; }
     .about p {
-      font-size: 12px;
+      font-size: 10px;
       text-shadow: 0 1px 1px #9b402c; }
 
   .skills > span {
