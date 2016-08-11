@@ -555,10 +555,22 @@ textarea {
     padding: 1%;
     width: calc(98% - 400px);
     float: right;
+    display: -webkit-box;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;
+    /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    /* NEW - Chrome */
     display: flex;
+    /* NEW, Spec - Opera 12.1, Firefox 20+ */
     flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: center; }
+    -webkit-align-items: flex-start;
+    justify-content: center;
+    -webkit-justify-content: center; }
     .portfolio_content .section {
       position: relative;
       z-index: 10;
@@ -570,7 +582,16 @@ textarea {
       margin: 0;
       padding: 0; }
     .portfolio_content img:hover + .img_color {
+      display: -webkit-box;
+      /* OLD - iOS 6-, Safari 3.1-6 */
+      display: -moz-box;
+      /* OLD - Firefox 19- (buggy but mostly works) */
+      display: -ms-flexbox;
+      /* TWEENER - IE 10 */
+      display: -webkit-flex;
+      /* NEW - Chrome */
       display: flex;
+      /* NEW, Spec - Opera 12.1, Firefox 20+ */
       border: 1px solid white; }
     .portfolio_content .img_color {
       position: absolute;
@@ -595,7 +616,16 @@ textarea {
         color: white;
         text-shadow: 0 1px 1px #9b402c; }
     .portfolio_content .img_color:hover {
+      display: -webkit-box;
+      /* OLD - iOS 6-, Safari 3.1-6 */
+      display: -moz-box;
+      /* OLD - Firefox 19- (buggy but mostly works) */
+      display: -ms-flexbox;
+      /* TWEENER - IE 10 */
+      display: -webkit-flex;
+      /* NEW - Chrome */
       display: flex;
+      /* NEW, Spec - Opera 12.1, Firefox 20+ */
       border: 1px solid white; }
     .portfolio_content .img_color:hover + section {
       transform: scale(1.5); }
@@ -927,9 +957,20 @@ textarea {
     padding: 1%;
     width: calc(98% - 400px);
     float: right;
+    display: -webkit-box;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;
+    /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    /* NEW - Chrome */
     display: flex;
+    /* NEW, Spec - Opera 12.1, Firefox 20+ */
     flex-wrap: wrap;
-    align-items: flex-start; }
+    -webkit-flex-wrap: wrap;
+    align-items: flex-start;
+    -webkit-align-items: flex-start; }
     .portfolio_content .section {
       position: relative;
       z-index: 10;
@@ -941,7 +982,16 @@ textarea {
       margin: 0;
       padding: 0; }
     .portfolio_content img:hover + .img_color {
+      display: -webkit-box;
+      /* OLD - iOS 6-, Safari 3.1-6 */
+      display: -moz-box;
+      /* OLD - Firefox 19- (buggy but mostly works) */
+      display: -ms-flexbox;
+      /* TWEENER - IE 10 */
+      display: -webkit-flex;
+      /* NEW - Chrome */
       display: flex;
+      /* NEW, Spec - Opera 12.1, Firefox 20+ */
       border: 1px solid white; }
     .portfolio_content .img_color {
       position: absolute;
@@ -954,8 +1004,11 @@ textarea {
       background: rgba(34, 34, 34, 0.9);
       display: none;
       justify-content: center;
+      -webkit-justify-content: center;
       align-items: center;
-      flex-direction: column; }
+      -webkit-align-items: center;
+      flex-direction: column;
+      -webkit-flex-direction: column; }
       .portfolio_content .img_color h3 {
         color: white;
         text-shadow: 0 1px 1px #9b402c; }
@@ -963,7 +1016,16 @@ textarea {
         color: white;
         text-shadow: 0 1px 1px #9b402c; }
     .portfolio_content .img_color:hover {
+      display: -webkit-box;
+      /* OLD - iOS 6-, Safari 3.1-6 */
+      display: -moz-box;
+      /* OLD - Firefox 19- (buggy but mostly works) */
+      display: -ms-flexbox;
+      /* TWEENER - IE 10 */
+      display: -webkit-flex;
+      /* NEW - Chrome */
       display: flex;
+      /* NEW, Spec - Opera 12.1, Firefox 20+ */
       border: 1px solid white; }
 
   a.mobile_link {
@@ -1299,9 +1361,20 @@ textarea {
     width: calc(98% - 300px);
     min-height: 100vh;
     float: right;
+    display: -webkit-box;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;
+    /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    /* NEW - Chrome */
     display: flex;
+    /* NEW, Spec - Opera 12.1, Firefox 20+ */
     flex-wrap: wrap;
-    align-items: flex-start; }
+    -webkit-flex-wrap: wrap;
+    align-items: flex-start;
+    -webkit-align-items: flex-start; }
     .portfolio_content .section {
       position: relative;
       z-index: 10;
@@ -1313,7 +1386,16 @@ textarea {
       margin: 0;
       padding: 0; }
     .portfolio_content img:hover + .img_color {
+      display: -webkit-box;
+      /* OLD - iOS 6-, Safari 3.1-6 */
+      display: -moz-box;
+      /* OLD - Firefox 19- (buggy but mostly works) */
+      display: -ms-flexbox;
+      /* TWEENER - IE 10 */
+      display: -webkit-flex;
+      /* NEW - Chrome */
       display: flex;
+      /* NEW, Spec - Opera 12.1, Firefox 20+ */
       border: 1px solid white; }
     .portfolio_content .img_color {
       position: absolute;
@@ -1326,8 +1408,11 @@ textarea {
       background: rgba(34, 34, 34, 0.9);
       display: none;
       justify-content: center;
+      -webkit-justify-content: center;
       align-items: center;
-      flex-direction: column; }
+      -webkit-align-items: center;
+      flex-direction: column;
+      -webkit-flex-direction: column; }
       .portfolio_content .img_color h3 {
         color: white;
         text-shadow: 0 1px 1px #9b402c; }
@@ -1335,7 +1420,16 @@ textarea {
         color: white;
         text-shadow: 0 1px 1px #9b402c; }
     .portfolio_content .img_color:hover {
+      display: -webkit-box;
+      /* OLD - iOS 6-, Safari 3.1-6 */
+      display: -moz-box;
+      /* OLD - Firefox 19- (buggy but mostly works) */
+      display: -ms-flexbox;
+      /* TWEENER - IE 10 */
+      display: -webkit-flex;
+      /* NEW - Chrome */
       display: flex;
+      /* NEW, Spec - Opera 12.1, Firefox 20+ */
       border: 1px solid white; }
 
   a.mobile_link {
