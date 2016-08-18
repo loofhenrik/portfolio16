@@ -441,7 +441,8 @@ textarea {
     color: white;
     background: black;
     text-decoration: none;
-    transition: all 0.5s ease; }
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease; }
 
   .contact ul li a:hover i:before {
     background: white;
@@ -576,12 +577,24 @@ textarea {
       z-index: 10;
       margin: 1% 1% 0 1%;
       padding: 0;
-      width: 48%; }
+      width: 48%;
+      overflow: hidden; }
     .portfolio_content img {
       width: 100%;
       margin: 0;
-      padding: 0; }
-    .portfolio_content img:hover + .img_color {
+      padding: 0;
+      transition: all 1s ease;
+      -webkit-transition: all 1s ease; }
+    .portfolio_content .img_color {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin: 0;
+      padding: 0 10%;
+      width: calc(80% - 2px);
+      height: calc(100% - 2px);
+      background: rgba(34, 34, 34, 0.92);
+      border: 1px solid transparent;
       display: -webkit-box;
       /* OLD - iOS 6-, Safari 3.1-6 */
       display: -moz-box;
@@ -592,23 +605,15 @@ textarea {
       /* NEW - Chrome */
       display: flex;
       /* NEW, Spec - Opera 12.1, Firefox 20+ */
-      border: 1px solid white; }
-    .portfolio_content .img_color {
-      position: absolute;
-      top: 0;
-      left: 0;
-      margin: 0;
-      padding: 0 10%;
-      width: 80%;
-      height: 98%;
-      background: rgba(34, 34, 34, 0.92);
-      display: none;
       justify-content: center;
       -webkit-justify-content: center;
       align-items: center;
       -webkit-align-items: center;
       flex-direction: column;
-      -webkit-flex-direction: column; }
+      -webkit-flex-direction: column;
+      opacity: 0;
+      transition: all 0.5s ease;
+      -webkit-transition: all 0.3s ease; }
       .portfolio_content .img_color h3 {
         color: white;
         text-shadow: 0 1px 1px #9b402c; }
@@ -616,19 +621,8 @@ textarea {
         color: white;
         text-shadow: 0 1px 1px #9b402c; }
     .portfolio_content .img_color:hover {
-      display: -webkit-box;
-      /* OLD - iOS 6-, Safari 3.1-6 */
-      display: -moz-box;
-      /* OLD - Firefox 19- (buggy but mostly works) */
-      display: -ms-flexbox;
-      /* TWEENER - IE 10 */
-      display: -webkit-flex;
-      /* NEW - Chrome */
-      display: flex;
-      /* NEW, Spec - Opera 12.1, Firefox 20+ */
+      opacity: 1;
       border: 1px solid white; }
-    .portfolio_content .img_color:hover + section {
-      transform: scale(1.5); }
 
   a.mobile_link {
     display: block;
@@ -640,7 +634,8 @@ textarea {
     text-shadow: 0 1px 1px #9b402c;
     text-decoration: none;
     box-shadow: 0 1px 1px #111;
-    transition: all 0.4s ease; }
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease; }
 
   a.mobile_link:hover {
     background: white;
@@ -724,7 +719,9 @@ textarea {
     background: tomato;
     box-shadow: -1px -1px 3px #333;
     transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
     transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
     cursor: pointer; }
     .credit_icon p {
       font-size: 24px;
@@ -735,7 +732,9 @@ textarea {
       bottom: 15px;
       left: 15px;
       transform: rotate(-45deg);
-      transition: all 0.3s ease; }
+      -webkit-transform: rotate(-45deg);
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease; }
 
   .credit_icon:hover {
     background: #e6593f; }
@@ -843,7 +842,8 @@ textarea {
     color: white;
     background: black;
     text-decoration: none;
-    transition: all 0.5s ease; }
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease; }
 
   .contact ul li a:hover i:before {
     background: white;
@@ -976,12 +976,23 @@ textarea {
       z-index: 10;
       margin: 1% 1% 0 1%;
       padding: 0;
-      width: 100%; }
+      width: 100%;
+      overflow: hidden; }
     .portfolio_content img {
       width: 100%;
       margin: 0;
-      padding: 0; }
-    .portfolio_content img:hover + .img_color {
+      padding: 0;
+      transition: all 1s ease;
+      -webkit-transition: all 1s ease; }
+    .portfolio_content .img_color {
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin: 0;
+      padding: 0 10%;
+      width: calc(80% - 2px);
+      height: calc(100% - 2px);
+      background: rgba(34, 34, 34, 0.9);
       display: -webkit-box;
       /* OLD - iOS 6-, Safari 3.1-6 */
       display: -moz-box;
@@ -992,23 +1003,15 @@ textarea {
       /* NEW - Chrome */
       display: flex;
       /* NEW, Spec - Opera 12.1, Firefox 20+ */
-      border: 1px solid white; }
-    .portfolio_content .img_color {
-      position: absolute;
-      top: 0;
-      left: 0;
-      margin: 0;
-      padding: 0 10%;
-      width: 80%;
-      height: 98%;
-      background: rgba(34, 34, 34, 0.9);
-      display: none;
       justify-content: center;
       -webkit-justify-content: center;
       align-items: center;
       -webkit-align-items: center;
       flex-direction: column;
-      -webkit-flex-direction: column; }
+      -webkit-flex-direction: column;
+      opacity: 0;
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease; }
       .portfolio_content .img_color h3 {
         color: white;
         text-shadow: 0 1px 1px #9b402c; }
@@ -1016,16 +1019,7 @@ textarea {
         color: white;
         text-shadow: 0 1px 1px #9b402c; }
     .portfolio_content .img_color:hover {
-      display: -webkit-box;
-      /* OLD - iOS 6-, Safari 3.1-6 */
-      display: -moz-box;
-      /* OLD - Firefox 19- (buggy but mostly works) */
-      display: -ms-flexbox;
-      /* TWEENER - IE 10 */
-      display: -webkit-flex;
-      /* NEW - Chrome */
-      display: flex;
-      /* NEW, Spec - Opera 12.1, Firefox 20+ */
+      opacity: 1;
       border: 1px solid white; }
 
   a.mobile_link {
@@ -1038,7 +1032,8 @@ textarea {
     text-shadow: 0 1px 1px #9b402c;
     text-decoration: none;
     box-shadow: 0 1px 1px #111;
-    transition: all 0.4s ease; }
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease; }
 
   a.mobile_link:hover {
     background: white;
@@ -1122,7 +1117,9 @@ textarea {
     background: tomato;
     box-shadow: -1px -1px 3px #333;
     transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
     transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
     cursor: pointer; }
     .credit_icon p {
       font-size: 24px;
@@ -1133,7 +1130,9 @@ textarea {
       bottom: 15px;
       left: 15px;
       transform: rotate(-45deg);
-      transition: all 0.3s ease; }
+      -webkit-transform: rotate(-45deg);
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease; }
 
   .credit_icon:hover {
     background: #e6593f; }
@@ -1241,7 +1240,8 @@ textarea {
     color: white;
     background: black;
     text-decoration: none;
-    transition: all 0.5s ease; }
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease; }
 
   .contact ul li a:hover i:before {
     background: white;
@@ -1380,12 +1380,23 @@ textarea {
       z-index: 10;
       margin: 1% 1% 0 1%;
       padding: 0;
-      width: 100%; }
+      width: 100%;
+      overflow: hidden; }
     .portfolio_content img {
       width: 100%;
       margin: 0;
-      padding: 0; }
-    .portfolio_content img:hover + .img_color {
+      padding: 0;
+      transition: all 1s ease;
+      -webkit-transition: all 1s ease; }
+    .portfolio_content .img_color {
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin: 0;
+      padding: 0 10%;
+      width: calc(80% - 2px);
+      height: calc(100% - 2px);
+      background: rgba(34, 34, 34, 0.9);
       display: -webkit-box;
       /* OLD - iOS 6-, Safari 3.1-6 */
       display: -moz-box;
@@ -1396,23 +1407,15 @@ textarea {
       /* NEW - Chrome */
       display: flex;
       /* NEW, Spec - Opera 12.1, Firefox 20+ */
-      border: 1px solid white; }
-    .portfolio_content .img_color {
-      position: absolute;
-      top: 0;
-      left: 0;
-      margin: 0;
-      padding: 0 10%;
-      width: 80%;
-      height: 98%;
-      background: rgba(34, 34, 34, 0.9);
-      display: none;
       justify-content: center;
       -webkit-justify-content: center;
       align-items: center;
       -webkit-align-items: center;
       flex-direction: column;
-      -webkit-flex-direction: column; }
+      -webkit-flex-direction: column;
+      opacity: 0;
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease; }
       .portfolio_content .img_color h3 {
         color: white;
         text-shadow: 0 1px 1px #9b402c; }
@@ -1420,16 +1423,7 @@ textarea {
         color: white;
         text-shadow: 0 1px 1px #9b402c; }
     .portfolio_content .img_color:hover {
-      display: -webkit-box;
-      /* OLD - iOS 6-, Safari 3.1-6 */
-      display: -moz-box;
-      /* OLD - Firefox 19- (buggy but mostly works) */
-      display: -ms-flexbox;
-      /* TWEENER - IE 10 */
-      display: -webkit-flex;
-      /* NEW - Chrome */
-      display: flex;
-      /* NEW, Spec - Opera 12.1, Firefox 20+ */
+      opacity: 1;
       border: 1px solid white; }
 
   a.mobile_link {
@@ -1442,7 +1436,8 @@ textarea {
     text-shadow: 0 1px 1px #9b402c;
     text-decoration: none;
     box-shadow: 0 1px 1px #111;
-    transition: all 0.4s ease; }
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease; }
 
   a.mobile_link:hover {
     background: white;
@@ -1526,7 +1521,9 @@ textarea {
     background: tomato;
     box-shadow: -1px -1px 3px #333;
     transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
     transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
     cursor: pointer; }
     .credit_icon p {
       font-size: 24px;
@@ -1537,7 +1534,9 @@ textarea {
       bottom: 15px;
       left: 15px;
       transform: rotate(-45deg);
-      transition: all 0.3s ease; }
+      -webkit-transform: rotate(-45deg);
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease; }
 
   .credit_icon:hover {
     background: #e6593f; }

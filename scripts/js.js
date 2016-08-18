@@ -55,3 +55,16 @@ if(windowWidth <= 736) {
 $('.credit_icon').click(function () {
     $('.credit_content').slideToggle(500);
 });
+
+
+
+//------------------------------ ZOOM IMG ON HOVER -------------------------
+
+if(windowWidth >= 736) {
+    $('.img_color').mouseover(function () {
+        $(this).siblings('img').css("transform","scale(1.1)");
+    });
+    $('.img_color').mouseout(function () {
+        $(this).siblings('img').css("transform","scale(1)");
+    });
+}
